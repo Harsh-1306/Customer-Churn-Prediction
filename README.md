@@ -3,7 +3,9 @@ This project aims to predict customer churn for a telecommunications company usi
 
 # Dataset
 Telco Customer Churn Dataset
+<br>
 Source: Kaggle Telco Customer Churn Dataset
+<br>
 Description: The dataset contains information on 7,043 customers, including demographics, account information, the services they signed up for, and whether they churned (i.e., left the company) in the last month.
 
 # Key Features:
@@ -53,23 +55,31 @@ Churn: Whether the customer churned (Yes, No)
 # Project Workflow
 # 1. Data Preprocessing
 Handling Missing Values: Imputed missing values in the TotalCharges column.
+<br>
 Encoding Categorical Variables: Converted categorical variables into numerical formats using label encoding and one-hot encoding.
+<br>
 Feature Scaling: Applied feature scaling to normalize the input features.
 # 2. Model Training
 Model Architecture: Built an Artificial Neural Network using TensorFlow/Keras. The network consists of:
+<br>
 Input layer with 20 features
+<br>
 One hidden layers with 20 neurons, using the ReLU activation function
+<br>
 Output layer with a single neuron using the sigmoid activation function for binary classification
+<br>
 Model Compilation: The model was compiled using the Adam optimizer, binary cross-entropy as the loss function, and accuracy as the evaluation metric.
+<br>
 Model Training: The model was trained on 80% of the data, with 20% reserved for validation. Early stopping was implemented to prevent overfitting.
 
 # 3. Model Evaluation
 Confusion Matrix: Evaluated the model's performance using a confusion matrix to determine true positives, true negatives, false positives, and false negatives.
+<br>
 Classification Report : To analyze precision, recall and f1 score.
 
 
 # Results
-The ANN model achieved an accuracy of 78% on the test set, with a ROC-AUC score of YY%. The model is effective in predicting customer churn and can be utilized by the company to implement retention strategies.
+The ANN model achieved an accuracy of 78% on the test set.The model is effective in predicting customer churn and can be utilized by the company to implement retention strategies.
 
 
 # Conclusion
